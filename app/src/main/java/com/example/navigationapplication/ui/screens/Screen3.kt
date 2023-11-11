@@ -12,13 +12,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 
 @Composable
-fun Screen2(
+fun Screen3(
 ){
     Column(
-        modifier = Modifier.fillMaxSize().background(MaterialTheme.colorScheme.secondary),
-        verticalArrangement =  Arrangement.Center,
-        horizontalAlignment = Alignment.CenterHorizontally
+        modifier = Modifier.fillMaxSize().background(MaterialTheme.colorScheme.tertiary),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Center
     ){
-        Text(text = "Screen 2", color = Color.White)
+        Text(text = "Screen 3", color = Color.White)
     }
 }
